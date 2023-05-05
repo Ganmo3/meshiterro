@@ -9,6 +9,7 @@ class PostImage < ApplicationRecord
     else
       'no_image.jpg'
     end
+  end
     
   def get_image
     unless image.attached?
